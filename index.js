@@ -91,7 +91,7 @@ If there are any additional questions, here is my e-mail address to reach me.
 -${answers.email}
 `
     
-      fs.writeFile(`./README.md`, content, err =>{
+      fs.writeFile(`./output/README.md`, content, err =>{
         if(err){
             console.error(err)
             return

@@ -29,3 +29,7 @@ If there are any questions or concerns about the application, here is a link to 
 If there are any additional questions, here is my e-mail address to reach me.
 
 -digitalsigna@gmail.com
+
+*Edit:This README.md was created via the README.md generator, and here is a link to a video that demonstrates going through the process to create a README.md file via the README.md generator.:
+
+-(https://drive.google.com/file/d/1rO3Q4CnNJg8-oVV_mlwWSlYikSoIyqiY/view)
