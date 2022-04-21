@@ -83,8 +83,11 @@ ${answers.contributing}
 ${answers.tests}
 ## Questions <a name="questions"></a>
 If there are any questions or concerns about the application, here is a link to my GitHub profile:
--${answers.github}[github.com/${answers.github}](github.com/${answers.github})
+
+-${answers.github}([github.com/${answers.github}](github.com/${answers.github}))
+
 If there are any additional questions, here is my e-mail address to reach me.
+
 -${answers.email}
 `
     
