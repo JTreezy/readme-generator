@@ -30,7 +30,7 @@ inquirer
     name: "contributing",
   },{
     type: "input",
-    message: "How do people update the tests for your projects?",
+    message: "How do people update the tests for your project?",
     name: "tests",
   },{
     type: "input",
@@ -68,20 +68,24 @@ ${answers.description}
 - [License](#license)
 - [Github](#github)
 - [E-Mail](#email)
+- [Tests](#tests)
+- [Questions](#questions)
 
 ## Installation <a name="installation"></a>
 ${answers.installation}
-## Usage Information
+## Usage Information <a name="usage"></a>
 ${answers.usage}
-## License
-${answers.license}${badge}
-## Contributions
+## License <a name="license"></a>
+${badge}
+## Contributions <a name="contributions"></a>
 ${answers.contributing}
-## Tests
+## Tests <a name="tests"></a>
 ${answers.tests}
-## Questions
-${answers.github}
-${answers.email}
+## Questions <a name="questions"></a>
+If there are any questions or concerns about the application, here is a link to my GitHub profile:
+-${answers.github}[github.com/${answers.github}](github.com/${answers.github})
+If there are any additional questions, here is my e-mail address to reach me.
+-${answers.email}
 `
     
       fs.writeFile(`./README.md`, content, err =>{
